@@ -1,0 +1,395 @@
+{
+  "picture": {
+    "hidden": true,
+    "fit": "cover",
+    "url": "",
+    "size": 80,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0.5)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "David Nwogu",
+    "headline": "",
+    "email": "[EMAIL]",
+    "phone": "[PHONE]",
+    "location": "[CITY, STATE]",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": [
+      {
+        "id": "00fd5e5f-1d0e-45b5-bf22-c237f899f3e6",
+        "icon": "linkedin-logo",
+        "text": "[LINKEDIN URL]",
+        "link": ""
+      },
+      {
+        "id": "154c5bab-b2ce-4d50-8cbc-320fb128c513",
+        "icon": "github-logo",
+        "text": "[GITHUB URL]",
+        "link": ""
+      }
+    ]
+  },
+  "summary": {
+    "title": "SUMMARY",
+    "icon": "",
+    "columns": 1,
+    "hidden": false,
+    "showHeading": true,
+    "keepTogether": false,
+    "startOnNewPage": false,
+    "content": "<p>Frontend platform engineer on Credit Karma's Next.js and React framework team (an Intuit company), building the guardrails, tooling, observability and delivery systems that 50+ web apps depend on. [YEARS OF EXPERIENCE] years of experience building web applications and platforms. Owns initiatives from design through staged rollout, and turns recurring problems into automated checks, shared tooling and documentation.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "experience": {
+      "title": "PROFESSIONAL EXPERIENCE",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "f91f6d78-05b5-4574-ba38-67d742089c28",
+          "hidden": false,
+          "company": "Credit Karma, an Intuit company",
+          "position": "Software Engineer II, Web Platform (Frontend Framework)",
+          "location": "[CITY, STATE]",
+          "period": "[START DATE MM/YYYY] – Present",
+          "dates": {
+            "start": null,
+            "end": null,
+            "present": true,
+            "raw": "[START DATE MM/YYYY] – Present"
+          },
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<h3>Client-side code delivery platform</h3><ul><li><p>Authored the execution design (18 tickets, three phases, about 9–11 engineer-weeks) and, with two co-owners, the leadership overview for a platform that delivers framework code to 50+ web apps without per-app deploys. Apps deploy on their own schedules, so an emergency security fix took 8 days across 50 apps, onboarding the fleet onto shared packages took 69, and one app ran an old framework version after its fix existed.</p></li><li><p>Specified the guarantees the platform adds (version-tagged events, sourcemaps, error attribution, integrity hashing, bundle-size budgets, non-blocking two-stage loading, hash-based caching) and designed per-script ramps and rollback gating: one experiment flag per script, retired once its ramp settles.</p></li><li><p>Moved the analytics tracker onto the platform as its first migrated script and shipped the release with a ramp plan and New Relic dashboard. Fixed a front-end gateway gap that blocked the tracker's production ramp for embedded mobile web views and cookieless native requests.</p></li><li><p>Made CDN-delivered code debuggable with release-tagged telemetry and sourcemaps in New Relic (validated on three apps), so errors show their version and readable stack traces. Added a per-PR bundle-size check in shared tooling that other packages can adopt.</p></li><li><p>Rewrote first-stage inline scripts into typed, tested TypeScript compiled with esbuild, moving the tracker and image-error queue onto the two-stage load. Found that every release changed every script URL, recorded the decision in an ADR, and shipped content-hashed assets so client caches stay valid.</p></li></ul><h3>Framework guardrails and developer experience</h3><ul><li><p>Added a security-team global-state scanner to framework CI as a blocking check, taking framework packages from about 60% to 100% passing after fixing 45+ files. Contributed to that team's scanner, unblocking React Server Components adoption across the org; [METRIC?: apps now using React Server Components].</p></li><li><p>Built a custom ESLint plugin (three rules, applied through shared config) that moves framework-pattern checks into the IDE for 30+ Next.js apps, and cut unit-test setup from 50+ lines to one call with typed mocks that fail at compile time.</p></li><li><p>Wrote 12 framework guides in three months using an AI-built template. Partnered with the developer-productivity team to feed the guides to an MCP server for AI coding agents; [METRIC?: reduction in repeat support questions].</p></li></ul><h3>Observability and reliability</h3><ul><li><p>Wrote the design for image-error reporting (CDN and failure type), took over a pull request stalled for five months, wrote about half of its final code and tests, merged it, and co-owned the first production release and its 1% to 100% ramp (50 minutes). Later rewrote the event queue in TypeScript.</p></li><li><p>Diagnosed a spike in embedded-web-app abandonment with lifecycle logging in New Relic, finding apps that never reported end-of-load timing and created false abandonment events.</p></li></ul><h3>Cross-team rollouts and release ownership</h3><ul><li><p>Ran seven staged production releases of shared frontend packages, including a navigation package ramped from 0% to 100% in 72 minutes with no aborts or rollbacks and a same-day release to unblock a teammate. Covered on-call weeks and reviewed 250+ pull requests.</p></li><li><p>Rolled out framework performance reporting to 9 production apps in four weeks and upgraded 8 apps owned by other teams to a new major framework version, one pull request per app to limit blast radius.</p></li><li><p>Shipped Android navigation transitions for embedded web apps after another team pulled me in, matching iOS for millions of users. Fixed an iOS bug blocking another team's Appium automation for every team using it.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "EDUCATION",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "b818b255-2c17-4451-b0e1-b25f4fe49b65",
+          "hidden": false,
+          "school": "[EDUCATION: degree, major, school, year]",
+          "degree": "",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "",
+          "dates": {
+            "start": null,
+            "end": null,
+            "present": false
+          },
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "skills": {
+      "title": "TECHNICAL SKILLS",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "18fa632b-b999-4ef0-b78c-05973c3dd356",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Languages",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "TypeScript",
+            "JavaScript",
+            "GraphQL"
+          ]
+        },
+        {
+          "id": "77daf6e1-5029-42cf-a900-916cf782300a",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Frameworks and Libraries",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "React",
+            "Next.js (App Router)",
+            "React Server Components"
+          ]
+        },
+        {
+          "id": "7600d9ac-7cd2-4ddb-91bc-d32d4f55905c",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Testing",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Jest",
+            "Cypress",
+            "Appium"
+          ]
+        },
+        {
+          "id": "18424673-c0e5-4695-9af3-edbc1c972df7",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Build, CI/CD and Observability",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "ESLint (custom plugin authoring)",
+            "esbuild",
+            "Nx",
+            "CircleCI",
+            "New Relic",
+            "Splunk",
+            "sourcemaps"
+          ]
+        },
+        {
+          "id": "6b7796d2-3a8a-467e-ad50-2a08b36e6aa0",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Practices",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "technical design docs",
+            "ADRs",
+            "staged rollouts with feature flags and experiments",
+            "release management",
+            "on-call",
+            "code review",
+            "AI coding agents",
+            "MCP servers"
+          ]
+        }
+      ],
+      "keywordLayout": "inline",
+      "layout": "default"
+    },
+    "languages": {
+      "title": "Languages",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "interests": {
+      "title": "Interests",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Publications",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteer",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "icon": "",
+      "columns": 1,
+      "hidden": true,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    }
+  },
+  "customSections": [
+    {
+      "title": "EARLIER EXPERIENCE",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "35be0ed1-54cc-4d5d-83c7-5ae0bc4b89ee",
+          "hidden": false,
+          "company": "[EARLIER EXPERIENCE: prior roles, companies, dates, or delete this section]",
+          "position": "",
+          "location": "",
+          "period": "",
+          "dates": {
+            "start": null,
+            "end": null,
+            "present": false
+          },
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "",
+          "roles": []
+        }
+      ],
+      "id": "24812d81-3a1e-4a7b-8602-960179324647",
+      "type": "experience"
+    }
+  ],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": true,
+          "main": [
+            "summary",
+            "skills",
+            "experience",
+            "education",
+            "24812d81-3a1e-4a7b-8602-960179324647"
+          ],
+          "sidebar": []
+        }
+      ]
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 14,
+      "marginY": 12,
+      "format": "letter",
+      "locale": "en-US",
+      "hideLinkUnderline": false,
+      "hideIcons": true,
+      "hideSectionIcons": true
+    },
+    "design": {
+      "level": {
+        "icon": "",
+        "type": "hidden"
+      },
+      "colors": {
+        "primary": "rgba(31, 41, 55, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Sans",
+        "fontWeights": [
+          "400",
+          "600"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.35
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Sans",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13,
+        "lineHeight": 1.3
+      }
+    },
+    "notes": "",
+    "styleRules": []
+  }
+}
